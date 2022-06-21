@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #ccc;
+    padding: 10px;
+    justify-content: center;
+}
+
+.image-card {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.title-card {
+    font-size: 2rem;
+    padding: 4px 0;
+    margin: 0;
+}
+
+.description-card {
+    font-size: 1.6rem;
+}
+
+.btn-more {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgb(6, 74, 63);
+    font-weight: bold;
+}
+
+.btn-more:hover {
+    color: rgb(14, 142, 120);
+}

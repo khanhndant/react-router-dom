@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useHref,
+} from "react-router-dom";
+import Home from './components/home';
+import ListBlogs from './components/listBlogs';
+import DetailsBlog from './components/detailsBlog';
+import Message from './components/Message';
+import Tasks from './components/tasks';
+import NotFound from './components/notfound';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Routes>
+            <Route path="/list-blogs" element={<ListBlogs />}/>
+            <Route path="/details-blog/:blogId" element={<DetailsBlog />} />
+            <Route path="/" element={<Home />} >
+              <Route
+                path="messages"
+                element={<Message />}
+              />
+              <Route path="tasks" element={<Tasks />} />
+            </Route>
+            <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </Router>
   );
 }
 

@@ -1,0 +1,31 @@
+{
+    "blogs": [{
+            "id": 1,
+            "title": "useHref",
+            "description": "useHref trả về giá trị URl có thể sử dụng để liên kết đến vị trí đã cho kể cả bên ngoài React Router",
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--YwD5WNiq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5wth4o6yz8xyuyrvd1k.png",
+            "usessage": "useHref"
+        },
+        {
+            "id": 2,
+            "title": "useInRouterContext",
+            "description": "useInRouterContext trả về true nếu component nằm trong Router và ngược lại",
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--YwD5WNiq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5wth4o6yz8xyuyrvd1k.png",
+            "usessage": "useInRouterContext"
+        },
+        {
+            "id": 3,
+            "title": "useLinkClickHandler",
+            "description": "Trả về sự kiện nhấp chuột để điều hướng khi tạo trong Link",
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--YwD5WNiq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5wth4o6yz8xyuyrvd1k.png",
+            "usessage": "useLinkClickHandler"
+        },
+        {
+            "id": 4,
+            "title": "HashRouter>",
+            "description": "Khá giống với BrowserRouter những chỉ khác là nó sẽ được sử dụng ở các trình duyệt không thể hoặc không gửi URL đến máy chủ, có thể lưu vị trí ở phần băm nhỏ",
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--YwD5WNiq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5wth4o6yz8xyuyrvd1k.png",
+            "usessage": "HashRouter>"
+        }
+    ]
+}

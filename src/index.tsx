@@ -9,7 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <HistoryRouter history={history}> */}
+      <App />
+    {/* </HistoryRouter> */}
   </React.StrictMode>
 );
 
